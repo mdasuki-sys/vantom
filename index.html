@@ -3,12 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>VANTOM | See Intelligence</title>
 
-    <!-- Tailwind via CDN (safe for now) -->
+    <!-- ===================== -->
+    <!-- Open Graph / Messaging -->
+    <!-- ===================== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vantom.io/" />
+    <meta property="og:title" content="VANTOM | See Intelligence" />
+    <meta
+      property="og:description"
+      content="The world’s first patent-filed holographic AI assistant."
+    />
+    <meta
+      property="og:image"
+      content="https://www.offthewallagency.com/wp-content/uploads/2026/01/VANTOM-Pitch-Deck-Rocket-Fuel.png"
+    />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://vantom.io/" />
+    <meta name="twitter:title" content="VANTOM | See Intelligence" />
+    <meta
+      name="twitter:description"
+      content="The world’s first patent-filed holographic AI assistant."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.offthewallagency.com/wp-content/uploads/2026/01/VANTOM-Pitch-Deck-Rocket-Fuel.png"
+    />
+
+    <!-- ===================== -->
+    <!-- Tailwind + Fonts -->
+    <!-- ===================== -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap"
       rel="stylesheet"
@@ -45,7 +75,7 @@
       };
     </script>
 
-    <!-- Base styles -->
+    <!-- Global styles -->
     <style>
       body {
         margin: 0;
@@ -67,13 +97,16 @@
       ::-webkit-scrollbar {
         width: 8px;
       }
+
       ::-webkit-scrollbar-track {
         background: #050505;
       }
+
       ::-webkit-scrollbar-thumb {
         background: #333;
         border-radius: 4px;
       }
+
       ::-webkit-scrollbar-thumb:hover {
         background: #00f0ff;
       }
@@ -83,7 +116,7 @@
   <body>
     <div id="root"></div>
 
-    <!-- Vite entry point -->
+    <!-- Vite entry -->
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
