@@ -132,7 +132,6 @@ export const Footer: React.FC = () => {
         <div>
           <h4 className="font-display text-white mb-6 uppercase tracking-widest text-sm">Contact</h4>
           <ul className="space-y-3 text-sm text-gray-500">
-            <li>Tripoli, Lebanon</li>
             <li>Global Deployments</li>
             <li><Link to="/contact" className="text-vantom-accent flex items-center gap-2">Get in Touch <ChevronRight size={14} /></Link></li>
           </ul>
