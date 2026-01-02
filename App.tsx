@@ -1,27 +1,11 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
-
-import { Home } from './pages/Home';
-import { Product } from './pages/Product';
-import { UseCases } from './pages/UseCases';
-import { Technology } from './pages/Technology';
-import { Security } from './pages/Security';
-import { About } from './pages/About';
-import { Contact } from './pages/Contact';
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/use-cases" element={<UseCases />} />
-        <Route path="/technology" element={<Technology />} />
-        <Route path="/security" element={<Security />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </HashRouter>
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <h1>Vantom</h1>
+      <p>A spatial, human-scale interface that feels tangible, intuitive, and alive.</p>
+    </div>
   );
 };
 
